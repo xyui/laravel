@@ -17,9 +17,10 @@
 create database laravel default character set utf8mb4 default collate utf8mb4_unicode_ci;
 
 //create table 
-php artisan make:migration create_opration_log_table
-  
+php artisan make:migration create_opration_log_table  
 php artisan migrate
+
+- ？？某个表只添加了一个字段，不要删除原来的记录，怎么通过命令更新？？
 
 
 //create model

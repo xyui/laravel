@@ -19,7 +19,7 @@ class CreateOprationLogTable extends Migration
             $table->string('path');
             $table->string('method');
             $table->string('ip');
-            $table->string('input');
+            $table->text('input');
 
             $table->timestamps();
         });
