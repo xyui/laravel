@@ -1,5 +1,9 @@
 ### install
 
+version: 
+"laravel/framework": "^6.0",
+"php": "^7.2",
+
 
 - git clone xx
 - composer update
@@ -33,3 +37,23 @@ php artisan make:middleware OperationLog
 -- kenel 里加上  \App\Http\Middleware\OperationLog::class,
 
 
+//route ??
+
+//controller ??
+
+
+//model 
+
+
+//request response ??
+
+
+//auth
+
+//middleware
+
+
+// rest api
+- https://www.toptal.com/laravel/restful-laravel-api-tutorial
+- https://cloud.tencent.com/developer/article/1344312
+- https://www.toptal.com/laravel/restful-laravel-api-tutorial
